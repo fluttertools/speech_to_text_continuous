@@ -1,4 +1,4 @@
-package com.example.speech_to_text_continuous
+package com.fluttertools.speech_to_text_continuous
 
 import io.flutter.plugin.common.MethodCall
 import io.flutter.plugin.common.MethodChannel

@@ -4,7 +4,7 @@ version: 0.0.1
 homepage:
 
 environment:
-  sdk: ^3.7.2
+  sdk: '>=3.7.2 <4.0.0'
   flutter: '>=3.3.0'
 
 dependencies:
@@ -13,7 +13,7 @@ dependencies:
   flutter_web_plugins:
     sdk: flutter
   web: ^1.0.0
-  plugin_platform_interface: ^2.0.2
+  plugin_platform_interface: ^2.1.8
 
 dev_dependencies:
   flutter_test:
@@ -38,7 +38,7 @@ flutter:
   plugin:
     platforms:
       android:
-        package: com.example.speech_to_text_continuous
+        package: com.fluttertools.speech_to_text_continuous
         pluginClass: SpeechToTextContinuousPlugin
       ios:
         pluginClass: SpeechToTextContinuousPlugin

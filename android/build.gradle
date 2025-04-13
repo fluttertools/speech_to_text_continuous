@@ -1,4 +1,4 @@
-group = "com.example.speech_to_text_continuous"
+group = "com.fluttertools.speech_to_text_continuous"
 version = "1.0-SNAPSHOT"
 
 buildscript {
@@ -25,7 +25,7 @@ apply plugin: "com.android.library"
 apply plugin: "kotlin-android"
 
 android {
-    namespace = "com.example.speech_to_text_continuous"
+    namespace = "com.fluttertools.speech_to_text_continuous"
 
     compileSdk = 35
 
